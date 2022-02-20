@@ -345,7 +345,7 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '小极很生气！';
     if (score <= 99) return '好像不如啵啵';
-    if (score <= 149) return '快要追上我了';
+    if (score <= 149) return '你露太多了吧！';
     if (score <= 199) return '祝小极中孝顺利！';
     return '公司脸呢？';
 }
